@@ -6,6 +6,12 @@ A self-contained D81 financial preparation wizard, with automatic calculations, 
 
 Open `index.html` directly to use it offline. React, Three.js, Tailwind CSS, Base UI and the adapted shadcn button are embedded. Editable application sources are preserved inside the HTML in `stead-editable-source`.
 
+## Display and accessibility
+
+Use **Display** in the header to select text size (100–150%), the original font, plain sans-serif or the embedded OpenDyslexic font, and light, forest dark or device appearance. Optional number help writes amounts in words and explains conversions; maintenance explicitly identifies payments and receipts. Extra text spacing and reduced motion are also available.
+
+Display preferences use `sessionStorage`: they survive refreshes in the current tab and reset when that tab’s session ends (browser session restoration may retain them). Financial answers continue to use separate local storage. OpenDyslexic font files and their SIL Open Font License are embedded in `index.html`.
+
 ## Branches and releases
 
 - **Main** is the default, owner-controlled branch. Only the repository administrator can update it.
